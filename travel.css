@@ -1,0 +1,117 @@
+body{
+    margin:0;
+}
+.header{
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+}
+ul{
+    display:flex;
+    list-style-type:none;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.icon{
+    margin:15px;
+    font-weight:bold;
+}
+.menu_area{
+    margin-right:15px;
+}
+li{
+    padding-right:5px;
+    border-radius:2px;
+    transition:transform 0.5s,background-color 0.5s;
+}
+li:hover{
+    transform:scale(1.1);
+    background-color:aliceblue;
+    border-bottom:2px solid black;
+    cursor:pointer;
+}
+.main_content{
+    background-image:url("image1.jpg");
+    height:700px;
+    background-size:cover;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    flex-wrap: wrap;
+
+}
+.services{
+    display:flex;
+     flex-wrap: wrap;
+    width:100%;
+    margin-top: 20px;
+    justify-content:space-evenly;
+}
+.services-heading{
+    text-align:center;
+
+}
+.cart1,.cart2,.cart3,.image2,.image6,.image4{
+    max-width: 300px;
+    border:1px solid black;
+    text-align:center;
+    justify-content:space-between;
+    border-radius: 5px;
+
+}
+.about{
+    padding-top: 50px;
+    display:flex;
+     flex-wrap: wrap;
+    background-color:aliceblue;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.image3{
+    width: 400px;
+    max-height: 400px;
+}
+.about_us{
+    max-width:600px;
+    text-align: justify;
+}
+.g1,.g2,.g3,.g4,.g5,.g6{
+    max-width: 400px;
+    cursor: pointer;
+    transition: transform 1s;
+
+}
+.g1:hover,.g2:hover,.g3:hover,.g4:hover,.g5:hover,.g6:hover{
+    transform:scale(1.1);
+
+}
+.gallery_text{
+    position: absolute;
+    font-size: 2rem;
+    width:100%;text-align: center;
+    margin-top: 100px;
+
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media only screen and (max-width:700px){
+    .gallery{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .about_us{
+        padding: 20px;
+
+    }
+}
