@@ -5,6 +5,8 @@ body{
     height:50px;
     display:flex;
     justify-content:space-between;
+    background-color:hsl(206, 100%, 1%);
+    color:azure;
 }
 ul{
     display:flex;
@@ -31,7 +33,7 @@ li:hover{
     cursor:pointer;
 }
 .main_content{
-    background-image:url("image1.jpg");
+    background-image:url("img.jpeg");
     height:700px;
     background-size:cover;
     text-align:center;
@@ -90,7 +92,8 @@ li:hover{
 .gallery_text{
     position: absolute;
     font-size: 2rem;
-    width:100%;text-align: center;
+    width:100%;
+    text-align: center;
     margin-top: 100px;
 
 }
